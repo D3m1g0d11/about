@@ -25,6 +25,19 @@ ul.navbar {
     background-color: #0C2136;
 }
 
+h3{
+    color:blue;
+}
+
+h3.BigText{
+    font-size: xx-large;
+}
+
+#SpecificText{
+    color: red;
+    font-size:xx-small;
+}
+
 ul.navbar li {
     float: right;
 }
@@ -45,4 +58,18 @@ ul.navbar li.register {
 
 ul.navbar li a:hover {
     transform: scale(1.2);
+}
+
+img{
+    width: 50mm;
+}
+.BoxText{
+    color:pink;
+    background-color: cadetblue;
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: red;
 }
